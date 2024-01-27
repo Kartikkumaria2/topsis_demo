@@ -14,4 +14,6 @@ setup(
             'topsis_demo = topsis_demo.topsis_demo:main',
         ],
     },
+    long_description=open('README.md', 'r').read(),
+    long_description_content_type='text/markdown',
 )
